@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Poetic - AI Native Payments</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            mono: ['Space Mono', 'monospace'],
+                        },
+                    },
+                },
+            };
+        </script>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            /* Ensure body takes full height */
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body
+        class="bg-slate-50 text-slate-900 min-h-screen font-mono antialiased flex items-center justify-center"
+    >
+        <!-- Main Content -->
+        <div class="text-center max-w-2xl mx-auto px-6">
+            <h1
+                class="text-4xl md:text-6xl font-bold mb-24 text-slate-800 leading-tight"
+            >
+                poetic
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
+                AI native payment solution for seamless integration with agents.
+            </p>
+            <button
+                class="inline-flex items-center bg-slate-800 hover:bg-slate-700 text-white font-medium py-3 px-6 rounded-md shadow-sm hover:shadow-md transition duration-300 ease-in-out mb-8"
+                onclick="window.location.href='mailto:daniel.lee@poetic.sh'"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-2"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path
+                        d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                    />
+                    <path
+                        d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                    />
+                </svg>
+                Talk to us
+            </button>
+            <p class="text-sm text-slate-500">Coming Soon • 2025</p>
+        </div>
+    </body>
+</html>
