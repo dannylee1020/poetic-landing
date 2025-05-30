@@ -35,21 +35,40 @@
             }
         </style>
     </head>
-    <body
-        class="bg-slate-50 text-slate-900 min-h-screen font-mono antialiased flex items-center justify-center"
-    >
+    <body class="bg-slate-50 text-slate-900 min-h-screen font-mono antialiased">
+        <!-- Navigation -->
+        <nav class="bg-slate-100 shadow-md">
+            <div
+                class="container mx-auto px-6 py-3 flex justify-between items-center"
+            >
+                <a href="index.html" class="text-xl font-bold text-slate-800"
+                    >poetic</a
+                >
+                <div>
+                    <a
+                        href="blog.html"
+                        class="text-slate-600 hover:text-slate-800 px-3 py-2 rounded-md text-sm font-medium"
+                        >Blog</a
+                    >
+                </div>
+            </div>
+        </nav>
+
         <!-- Main Content -->
-        <div class="text-center max-w-2xl mx-auto px-6">
+        <div
+            class="text-center max-w-2xl mx-auto px-6 pt-16 flex flex-col items-center justify-center"
+            style="min-height: calc(100vh - 60px)"
+        >
+            <!-- Adjusted pt-16 and min-height to account for nav -->
             <h1
                 class="text-4xl md:text-6xl font-bold text-slate-800 leading-tight mb-12"
             >
                 poetic
             </h1>
             <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                <!-- Removed mb-8 again -->
-                AI native checkout API<br />
-                Enable direct, programmatic purchases by AI agents on your
-                e-commerce site
+                E-commerce for AI agents. Build AI-friendly interface, unify
+                product data, and enable secure, automated purchases, all
+                integrated with your systems.
             </p>
             <button
                 class="inline-flex items-center bg-slate-800 hover:bg-slate-700 text-white font-medium py-3 px-6 rounded-md shadow-sm hover:shadow-md transition duration-300 ease-in-out mb-4"

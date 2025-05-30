@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Poetic - Blog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            mono: ['Space Mono', 'monospace'],
+                        },
+                    },
+                },
+            };
+        </script>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body class="bg-slate-50 text-slate-900 min-h-screen font-mono antialiased">
+        <!-- Navigation -->
+        <nav class="bg-slate-100 shadow-md">
+            <div
+                class="container mx-auto px-6 py-3 flex justify-between items-center"
+            >
+                <a href="index.html" class="text-xl font-bold text-slate-800"
+                    >poetic</a
+                >
+                <div>
+                    <a
+                        href="blog.html"
+                        class="text-slate-600 hover:text-slate-800 px-3 py-2 rounded-md text-sm font-medium"
+                        >Blog</a
+                    >
+                </div>
+            </div>
+        </nav>
+
+        <!-- Blog Content -->
+        <div class="container mx-auto px-6 py-12">
+            <!-- <h1 class="text-4xl font-bold text-slate-800 mb-8">Blog</h1> -->
+            <div class="space-y-8 max-w-5xl mx-auto">
+                <!-- Blog posts -->
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-3xl font-bold text-slate-700 mb-3">
+                        Alternate Web
+                    </h2>
+                    <p class="text-sm text-slate-500 mb-6">May 30, 2025</p>
+
+                    <div class="text-slate-600 leading-relaxed">
+                        <h3
+                            class="text-2xl font-semibold text-slate-700 mt-16 mb-2"
+                        >
+                            The Internet's Next Big Leap: Making Way for an
+                            AI-Friendly Web
+                        </h3>
+                        <p class="mt-4">
+                            The internet we use every day is built for us,
+                            humans. It’s full of colorful buttons, easy-to-read
+                            text, and videos. But a new kind of user is here:
+                            Artificial Intelligence (AI). AI is getting smarter
+                            and doing more for us. The problem is, the internet
+                            we have now isn't very friendly for AI. It's like
+                            asking a super-smart robot to read a fancy,
+                            handwritten invitation – it can struggle.
+                        </p>
+                        <p class="mt-4">
+                            That’s why I believe we'll soon see a new kind of
+                            internet, one built just for AI. Let's call our
+                            current internet the "GUI-Web" (because it uses
+                            Graphical User Interfaces, or visuals). The new one
+                            will be the "AI-Web." It will exist alongside the
+                            GUI-Web, like a parallel digital road built just for
+                            AI traffic.
+                        </p>
+
+                        <h3
+                            class="text-xl font-semibold text-slate-700 mt-16 mb-2"
+                        >
+                            A Quick Trip Through Internet History: From Wires to
+                            Websites
+                        </h3>
+                        <p class="mt-4">
+                            To see where we're headed, let's look at how the
+                            internet grew:
+                        </p>
+                        <ul class="list-disc list-inside pl-4 mt-4">
+                            <li class="mt-2">
+                                <strong
+                                    >The Beginning: The Internet (1960s -
+                                    1980s):</strong
+                                >
+                                It started as a way for scientists and the
+                                military to share information. It was all about
+                                sending data reliably, not about being pretty or
+                                easy to use for everyday people. Think of it
+                                like the basic plumbing. (Key developments:
+                                ARPANET launched in
+                                <strong>1969</strong>; TCP/IP standardized in
+                                the <strong>1970s</strong>, adopted by ARPANET
+                                in <strong>1983</strong>).
+                            </li>
+                            <li class="mt-2">
+                                <strong
+                                    >Organizing the Information: The World Wide
+                                    Web (WWW) (Early 1990s):</strong
+                                >
+                                Tim Berners-Lee invented the World Wide Web
+                                around <strong>1989-1991</strong>. This gave us
+                                websites and links, making it easier to find and
+                                share information. At this point, it was mostly
+                                text.
+                            </li>
+                            <li class="mt-2">
+                                <strong
+                                    >Making it Visual: GUIs and Browsers
+                                    (Mid-1990s):</strong
+                                >
+                                Things really took off when Graphical User
+                                Interfaces (GUIs) came along. Suddenly, you
+                                could click on pictures and menus instead of
+                                typing commands. Browsers like Mosaic (released
+                                <strong>1993</strong>) and Netscape (released
+                                <strong>1994</strong>) made the internet
+                                colorful and much easier for everyone to use.
+                            </li>
+                            <li class="mt-2">
+                                <strong
+                                    >Today: The Mobile, App-Focused,
+                                    People-First Web (2000s - Now):</strong
+                                >
+                                Now, we use the internet on our phones and
+                                computers with lots of apps and visually rich
+                                websites. Everything is designed to be easy and
+                                engaging for human eyes and fingers.
+                            </li>
+                        </ul>
+
+                        <h3
+                            class="text-xl font-semibold text-slate-700 mt-16 mb-2"
+                        >
+                            AI is Here: Why Our Current Web Doesn't Work Well
+                            for It
+                        </h3>
+                        <p class="mt-4">
+                            AI is changing things fast. We use AI to help with
+                            writing, answer questions, and even manage tasks.
+                            But these smart AI systems are trying to use an
+                            internet that wasn't designed for them.
+                        </p>
+                        <p class="mt-4">
+                            Websites today are made for people to look at. AI
+                            has to "scrape" or pick through these visual designs
+                            to find information. This is slow, clumsy, and can
+                            easily break if a website changes its look. Imagine
+                            trying to understand a book by only looking at its
+                            fancy cover art – that's kind of what AI faces. The
+                            GUI-Web is holding AI back.
+                        </p>
+
+                        <h3
+                            class="text-xl font-semibold text-slate-700 mt-16 mb-2"
+                        >
+                            Welcome to the AI-Web: A Special Internet for AI
+                        </h3>
+                        <p class="mt-4">
+                            This brings us to the idea of the "AI-Web." Think of
+                            it as a separate version of the internet, built just
+                            for AI.
+                        </p>
+                        <ul class="list-disc list-inside pl-4 mt-4">
+                            <li class="mt-2">
+                                <strong>A Mirror Image, But For AI:</strong>
+                                For every website on our GUI-Web, there would be
+                                a matching version on the AI-Web. This AI
+                                version wouldn't be for us to look at, but for
+                                AI to easily read and understand.
+                            </li>
+                            <li class="mt-2">
+                                <strong>Simple and Standard:</strong> The AI-Web
+                                would use clear, simple formats that all AI
+                                could understand. We're already seeing early
+                                ideas like <code>llm.txt</code> (just an example
+                                concept, like <code>robots.txt</code>
+                                but for AI language models). This file would
+                                tell AIs how to best read a website's
+                                information. The AI-Web would be a much bigger,
+                                more organized version of this.
+                            </li>
+                            <li class="mt-2">
+                                <strong>Easy Street for AI:</strong> With an
+                                AI-Web, AI systems could get information quickly
+                                and reliably. They wouldn't have to guess or
+                                struggle with visual layouts. This means AI
+                                could book your appointments, do research, or
+                                handle online shopping smoothly in the
+                                background.
+                            </li>
+                            <li class="mt-2">
+                                <strong
+                                    >People Use the GUI-Web, AI Uses the
+                                    AI-Web:</strong
+                                >
+                                We would keep using the internet we know and
+                                love, with all its visuals. But our AI helpers
+                                would use the super-efficient AI-Web to get
+                                things done for us. The two webs would work
+                                together, with the AI-Web often getting its
+                                basic information from the GUI-Web but
+                                presenting it in an AI-friendly way.
+                            </li>
+                        </ul>
+
+                        <h3
+                            class="text-xl font-semibold text-slate-700 mt-16 mb-2"
+                        >
+                            What's Next? Building the AI-Web
+                        </h3>
+                        <p class="mt-4">
+                            Creating the AI-Web will take time and effort. We'll
+                            need:
+                        </p>
+                        <ul class="list-disc list-inside pl-4 mt-4">
+                            <li class="mt-2">
+                                <strong>New Rules:</strong> We'll need to agree
+                                on common ways for AI to find and use
+                                information online.
+                            </li>
+                            <li class="mt-2">
+                                <strong>New Tools:</strong> We'll need ways to
+                                build and run these AI-friendly versions of
+                                websites.
+                            </li>
+                            <li class="mt-2">
+                                <strong>A New Way of Thinking:</strong>
+                                Website creators will need to think about
+                                serving two kinds of users: people and AI.
+                            </li>
+                        </ul>
+                        <p class="mt-4">
+                            The internet has always been about making
+                            information easier to get and use. The AI-Web is the
+                            next big step. It's an essential upgrade to help AI
+                            reach its full potential and work better with us in
+                            our digital lives. This isn't just a different
+                            internet; it's the future of how people and AI will
+                            work together online.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </body>
+</html>
